@@ -1,3 +1,18 @@
-#profile-picture {
+*{
+    background-color: blueviolet;
+}
+
+#profile-card{
+    margin: auto;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+#profile-picture{
     width: 500px;
+}
+
+#profile-text{
+    margin: auto;
+    width: 50%;
 }
