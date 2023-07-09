@@ -1,0 +1,37 @@
+body{
+    background-color: #e0c3fc;
+    background-image: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 65%, #0093e9 100%);
+    
+}
+
+.text{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    padding: auto;
+}
+
+#profile-card{
+    margin: auto;
+    margin-top: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 250px;
+    height: 325px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+    
+}
+
+#profile-picture{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 100%;
+}
+
+#socials{
+    color: black;
+}
