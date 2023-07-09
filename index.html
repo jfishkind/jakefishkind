@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jake Fishkind</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="newStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&family=Public+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6193c5f274.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="top-part">
@@ -19,13 +21,12 @@
         </div>
     </div>
     <div class="middle">
-        <a href="files/resume.pdf" download>
-            <button type="button" class="button">Resume</button>
+        <a href="files/resume.pdf" disabled="true" class="hidden">
+            <button type="button" class="button">Resume <i class="fa-solid fa-circle-down"></i></button>
         </a>
         <a href="mailto:jake.fishkind@gmail.com">
-            <button type="button" class="button">Contact me</button>
+            <button type="button" class="button">Contact me <i class="fa-solid fa-paper-plane"></i></button>
         </a>
-        <button>TEST</button>
     </div>
     <div class="bottom">
         <div class="skills boxed">
@@ -38,6 +39,10 @@
                 <li>R</li>
             </ul>
         </div>
+    </div>
+    <div class="socials">
+        <a href="https://github.com/jfishkind"><i class="fa-brands fa-github social-icon"></i></a>
+        <a href="https://www.linkedin.com/in/jacob-fishkind/"><i class="fa-brands fa-linkedin social-icon"></i></a>
     </div>
 </body>
 </html>
