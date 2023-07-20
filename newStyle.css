@@ -1,5 +1,7 @@
 body {
     background-color: #a388ee;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -22,8 +24,7 @@ p{
 
 .left-side {
     position: relative;
-    left: 10px;
-
+    width: 400px !important;
 }
 
 .boxed {
