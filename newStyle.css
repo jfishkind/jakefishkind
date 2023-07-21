@@ -14,6 +14,27 @@ h2 {
     margin-top: 0px;
 }
 
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+h5 {
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 0px;
+}
+
+.major {
+    font-size: 18px;
+}
+
 p{
     font-family: 'Public Sans', sans-serif;
 }
@@ -69,15 +90,24 @@ ul {
     font-family: 'Public Sans', sans-serif;
     padding-left: 20px;
     margin-top: 3px;
-    margin-bottom: 0px;
 }
 
 .hidden{
     color:#00000000
 }
 
-.social-icon{
+.bottom-box {
+    display: inline-block;
+    height: auto;
+}
+
+.social-icon {
     font-size: 50px;
     padding-top: 10px;
     color: #000000;
+}
+
+.education {
+    margin-left: 20px;
+    margin-top: 10px;
 }
